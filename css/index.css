@@ -65,6 +65,31 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* aplly flex on nav bar  */
+header nav {
+	display: flex;
+	flex-direction: row;
+	width: 800px;
+	vertical-align: top;
+    padding: 40px;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 20px;
+}
+/* remove the default style from links and give them new style */
+header nav a {
+    color: gray;
+    text-decoration: none;
+  } 
+
+.logo{
+    margin-top: -20px;
+    margin-left: -30px;
+}
+/* apply margin on Jumbo image */
+.main-pic{
+    margin-bottom: 20px;
+}
 
 .container {
     width: 800px;
@@ -124,6 +149,131 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+/* applying some css style to About page */
+
+/* apply 10px margin to top and buttom oa lla images */
+img{ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*aplly  display flex to make chaneges easly on boxes   */
+
+.big-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-container {
+    width: 48%;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+button{
+    background-origin: padding-box;
 }
 
 footer {
