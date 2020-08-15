@@ -304,6 +304,29 @@ button{
     border-radius: 5px;
 }
 
+@media (max-width: 700px){
+    .container {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 700px){
+    header nav {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        vertical-align: center;
+        padding: 40px;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 700px){
+    .main-pic{
+        margin-bottom: 20px;
+        width: 400px;
+    }
+}
 
 
 
